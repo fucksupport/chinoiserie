@@ -1,0 +1,157 @@
+body{
+
+	margin: auto;
+    background-image:url(image/makee.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+      background-size: cover;
+
+
+}
+
+header{
+
+    text-shadow:3px 3px 2px rgba(0,0,0,1);
+    font-weight:normal;
+    color:#FFCC00;
+    letter-spacing:0pt;
+    word-spacing:2pt;
+    font-size:38px;
+    text-align:center;
+    font-family:lucida sans unicode, lucida grande, sans-serif;
+    text-decoration: blink;
+    float: center;
+    text-align: center;
+    line-height:1;
+    
+
+}
+
+#headlogo{
+
+
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#headtext{
+
+
+}
+
+
+ 
+
+.nav.fixed{
+	position:fixed;
+	top:0;
+	z-index:1000;
+  
+    display: flex;
+    justify-content:center;
+    margin:0;
+    padding:0;
+    background:#000000  url('nav_bg.jpg') 0 0 repeat-x;
+    width:100%;
+    border:1px solid #ffffff;
+    border-width:0px 0;
+}
+
+#navi
+{
+    
+    display: flex;
+    justify-content:center;
+    margin:0;
+    padding:0;
+    background:#000000  url('nav_bg.jpg') 0 0 repeat-x;
+    width:100%;
+    border:1px solid #ffffff;
+    border-width:1px 0;
+}
+
+#navi li 
+{
+
+    display:inline;
+    padding:0;
+    margin:0;
+}
+
+#navi a:link, a:visited 
+{
+    color:#fffdff;
+    background:#000000 ; 
+    padding: 12px 15px 12px 15px;   
+    width:auto;
+    display: flex;
+    text-decoration:none;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing:0.5pt
+}
+
+#navi a:hover {
+color:#fff;
+background:#848484;
+}
+
+
+#contener{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+section{
+    padding: 12px;
+    margin-top: 20px;
+    margin-left:30px;
+    width: 70%;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+
+aside{
+
+    padding: 12px;
+    margin-top: 20px;
+    margin-right: 30px;
+    width: 20%;
+    background-color : white;
+    border: 1px solid black;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+   background-color:yellow;
+   clear: both;
+}
+
+#foottxt{
+   width: 568px;
+   height: 57px;
+   text-align: center;
+   float: left;
+   }
+
+#footlogo{
+   width: 132px;
+   height: 57px;
+   float: right;
+   }
