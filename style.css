@@ -12,19 +12,6 @@ body{
 
 header{
 
-    text-shadow:3px 3px 2px rgba(0,0,0,1);
-    font-weight:normal;
-    color:#FFCC00;
-    letter-spacing:0pt;
-    word-spacing:2pt;
-    font-size:38px;
-    text-align:center;
-    font-family:lucida sans unicode, lucida grande, sans-serif;
-    text-decoration: blink;
-    float: center;
-    text-align: center;
-    line-height:1;
-    
 
 }
 
@@ -36,13 +23,6 @@ header{
 	text-align: center;
 }
 
-#headtext{
-
-
-}
-
-
- 
 
 .nav.fixed{
 	position:fixed;
@@ -107,23 +87,42 @@ background:#848484;
 
 
 section{
-    padding: 12px;
+    padding-left: 12px;
+
+
     margin-top: 20px;
     margin-left:30px;
     width: 70%;
-    border: 1px solid black;
+    border: 2px solid black;
     background-color: white;
     color: black;
 }
 
 aside{
 
-    padding: 12px;
+width: 20%;
+padding: 12px;
+margin-right: 30px;
+
+}
+
+#aside1{
+    
+    padding-left: 12px;
+    padding-bottom: 12px;
     margin-top: 20px;
-    margin-right: 30px;
-    width: 20%;
-    background-color : white;
-    border: 1px solid black;
+    background-color : #ffc9a8;
+    border: 4px solid black;
+    
+}
+
+#aside2{
+    
+    padding-left: 12px;
+        padding-bottom: 12px;
+    margin-top: 10px;
+    background-color : #ffc9a8;
+    border: 4px solid black;
     
 }
 
@@ -132,26 +131,17 @@ aside{
 
 
 
-
-
-
-
-
+/*###############FOOTER#################"*/
 
 footer{
-   background-color:yellow;
-   clear: both;
+    margin-top: 30px;
+    padding-top: 25px;
+    display: block;
+    background-color:black;
+    color: white;
 }
 
-#foottxt{
-   width: 568px;
-   height: 57px;
+#credit{
    text-align: center;
-   float: left;
-   }
-
-#footlogo{
-   width: 132px;
-   height: 57px;
-   float: right;
+   float: center;
    }
