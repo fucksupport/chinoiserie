@@ -1,7 +1,7 @@
 body{
 
 	margin: auto;
-    background-image:url(http://image.noelshack.com/fichiers/2016/05/1454541423-makee.jpg);
+    background-image:url(image/makee.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center top;
@@ -9,7 +9,7 @@ body{
 
 
 }
-
+/*#### Header ####*/
 header{
 
 
@@ -23,6 +23,7 @@ header{
 	text-align: center;
 }
 
+/*#### nav ####*/
 
 .nav.fixed{
 	position:fixed;
@@ -78,6 +79,7 @@ color:#fff;
 background:#848484;
 }
 
+/*#### content ####*/
 
 #contener{
     display: flex;
@@ -85,14 +87,23 @@ background:#848484;
 
 }
 
+#food{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+    border:2px solid;
+    max-height: 254px;
+    max-width: 500px;
 
+    
+}
 section{
+    
     padding-left: 12px;
-
-
+    border-radius: 5px;
     margin-top: 20px;
     margin-left:30px;
-    width: 70%;
+    width: 72%;
     border: 2px solid black;
     background-color: white;
     color: black;
@@ -108,22 +119,35 @@ margin-right: 30px;
 
 #aside1{
     
-    padding-left: 12px;
     padding-bottom: 12px;
     margin-top: 20px;
     background-color : #ffc9a8;
     border: 4px solid black;
     
+    
 }
-
 #aside2{
     
-    padding-left: 12px;
         padding-bottom: 12px;
     margin-top: 10px;
     background-color : #ffc9a8;
     border: 4px solid black;
     
+}
+
+#asidetitle{
+    font-weight:bold;
+    text-decoration:underline overline;
+    color:#000000;
+    letter-spacing:1pt;
+    font-size:24px;
+    text-align:center;
+    font-family:arial, helvetica, sans-serif;
+    line-height:0;
+}
+#asidecontent{
+ padding-left: 12px;
+list-style-type: none;
 }
 
 
