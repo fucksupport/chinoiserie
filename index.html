@@ -12,7 +12,17 @@
 	
 
 	<body>
-		<header>
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.5";
+        fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+		
+        <header>
+            
 		
 			<div id="headlogo">
                 <img alt="2nd" src="image/title5.png">
@@ -69,30 +79,40 @@
                 <p>.</p>
 
             </section>
+            
             <aside id="info">
                 <div id="aside1">
-                    <p id=asidetitle>HORAIRE</p>
-                    <li id=asidecontent>Lundi : &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp12:00 - 14:00 </li>
-                    <li id=asidecontent>Mardi - Dimanche : 11:00 - 14:30</li>
-                    <li id=asidecontent>&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 19:00 - 22:00</li>
+                    <p id=asidetitle>HORAIRES</p>
+                    <li id=asidecontent><strong>Le lundi :</strong></li>
+                    <li id=asidecontent>de 12:00 à 14:00</li><br/>
+                    <li id=asidecontent><strong>Du mardi au dimanche :</strong></li>
+                    <li id=asidecontent> de 11:00 à 14:30 et de 19:00 à 22:00</li>
 
-
-
-                    
-                    
                 </div>
                 
                 <div id="aside2">
-                    <p id=asidetitle>ADRESSE</p>
-
-                    
+                    <p id=asidetitle>A PROPOS</p>
+                    <li id=asidecontent><strong>Adresse :</strong></li>
+                    <li id=asidecontent>11 avenue Helmstedt</li>
+                    <li id=asidecontent>35500 VITRE</li><br/>
+                    <li id=asidecontent><strong>Telephone :</strong></li>
+                    <li id=asidecontent>02 99 74 47 77</li><br/>                    
+                    <li id=asidecontent><strong>Prix :</strong></li>
+                    <li id=asidecontent>Entre 10 et 15€</li>
                 </div>
+                
+                <div id="aside3">
+                    <div class="fb-page" data-href="https://www.facebook.com/RestaurantChinois/?fref=ts" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/RestaurantChinois/?fref=ts"><a href="https://www.facebook.com/RestaurantChinois/?fref=ts">Restaurant Chinois</a></blockquote></div></div>
+                </div> 
             </aside>
         </div>
 	
         <footer>
+            <div id=creditlogo>
+                <a href="https://twitter.com/Yanatow"><img src="http://image.noelshack.com/fichiers/2016/05/1454776659-poym.png"></a>
+            </div>
             <div id="credit">
-            All right Reserved "La PoYm" © - Last update 04/02/2016
+                Last update 06/02/2016 - All right Reserved "La PoYm" ©
             </div>
         </footer>	
     </body>
