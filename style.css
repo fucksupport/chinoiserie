@@ -146,7 +146,7 @@ display: flex;
 justify-content: space-between;
 background-color: black;
 border-top: 1px solid white;
-height:98px;
+height:100px;
     
     
 }
@@ -166,6 +166,8 @@ height:98px;
     padding-right:20px;
     border-left: 1px solid white;
     height:55px; 
+    margin-left:20px;
+
 }
 
 #footnav a:link, a:visited a:hover {
@@ -179,7 +181,7 @@ height:98px;
 
 #inforesto{
     margin:5px;
-    margin-left:50px;
+    margin-left:70px;
     padding-left:10px;
     border-left: 1px solid white;
     height:70px; 
@@ -192,8 +194,8 @@ justify-content: flex-start;
 }
 
 #credit{
-    margin:5px;
-    padding-right:5px;
+    margin:10px;
+    padding-top:8px;
     text-align: right;
     background-color: black;
     font-family:arial, helvetica, sans-serif;
@@ -204,13 +206,3 @@ justify-content: flex-start;
     padding-top:5px;
     margin-right:10px;
 }
-
-
-#test {
-    position: relative;
-        }
-
-#footer {
-    position: absolute;
-    bottom: 0;
-        }
