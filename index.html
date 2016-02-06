@@ -1,216 +1,144 @@
-body{
+<!DOCTYPE html>
+<html>
+	<head>
+        <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+        <script type="text/javascript" src="scroll.js"></script>
+		<link href="style.css" rel="stylesheet" type="text/css"/>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>		
+        <link rel="icon" type="image/png" href="image/ico.png" />
+        <title>Le Royal de Vitré</title>
+	</head>
+	
 
-	margin: auto;
-    background-image:url(http://image.noelshack.com/fichiers/2016/05/1454541423-makee.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center top;
-      background-size: cover;
-}
-/*#### Header ####*/
+	<body>
+        <div id="fb-root"></div>
+        <script>
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.5";
+        fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+        </script>
+		
+        
+        <header>
+        
+			<div id="headlogo">
+                <img alt="2nd" src="http://image.noelshack.com/fichiers/2016/05/1454786109-title5.png">
+			</div>
+		</header>
+		
+        <div class="nav">	
+            <ul id="navi">
+                <li id="navi-home"><a href="/index">Accueil</a></li>
+                <li id="navi-about"><a href="/carte">Carte et menus</a></li>
+                <li id="navi-archive"><a href="/restaurant">Le restaurant</a></li>
+                <li id="navi-lab"><a href="/feedback">Avis</a></li>
+                <li id="navi-reviews"><a href="/contact">Contactez-nous</a></li>
+            </ul>
+        </div>
+		
+		<div id="test">
+        <div id="container">
+            <section id="main">
 
+                <h2><center>Bienvenue !</center></h2>
+                <div id="food">
+                    <img alt="3rd" src="https://media.giphy.com/media/GUPzQlo86V33y/giphy.gif">
+                </div>
+                <p>Oyé oyé ! Amateurs de chiens en tout genre !</p>
+                <p>Vous allez etre déçu car le restaurant "Le Royal de Vitré" n'en propose pas</p>
+                <p>Allez plutot chez la concurance pour cela.</p>
+                <p>Nous garentissons no sushis 100% hallal..</p>
+                <p>..C'est pas du chien, c'est pas du cochon.. Mais c'est quoi alors ?</p>
+                <p>Bah en fait on en sait rien ! </p>
+                <p>Mais venez quand meme hein.. Faites pas vos shlag</p>
+                <p>.</p>
+                <p>.</p>
+                <p>.</p>
+                <p>.</p>
+                <p>.</p>
+                <p>.</p>
+                <p>.</p>
+                <p>.</p>
+                <p>.</p>
+                <p>.</p>
+                <p>.</p>
+                <p>.</p>
+                <p>.</p>
+                <p>.</p>
+                <p>.</p>
+                <p>.</p>
+                <p>.</p>
+                <p>.</p>
+                <p>.</p>
+                <p>.</p>
+                <p>.</p>
 
-#headlogo{
+            </section>
+            
+            <aside id="info">
+                <div id="aside1">
+                    <p id=asidetitle>HORAIRES</p>
+                    <li id=asidecontent><strong>Le lundi :</strong></li>
+                    <li id=asidecontent>de 12:00 à 14:00</li><br/>
+                    <li id=asidecontent><strong>Du mardi au dimanche :</strong></li>
+                    <li id=asidecontent> de 11:00 à 14:30 et de 19:00 à 22:00</li>
 
-
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-}
-
-/*#### nav ####*/
-
-.nav.fixed{
-	position:fixed;
-	top:0;
-	z-index:1000;
-    display: flex;
-    justify-content:center;
-    margin:0;
-    padding:0;
-    background:#000000  url('nav_bg.jpg') 0 0 repeat-x;
-    width:100%;
-    border:1px solid #ffffff;
-    border-width:0px 0;
-}
-
-#navi{
-    
-    display: flex;
-    justify-content:center;
-    margin:0;
-    padding:0;
-    background:#000000  url('nav_bg.jpg') 0 0 repeat-x;
-    width:100%;
-    border:1px solid #ffffff;
-    border-width:1px 0;
-}
-
-#navi li {
-
-    display:inline;
-    padding:0;
-    margin:0;
-}
-
-#navi a:link, a:visited {
-    color:#fffdff;
-    background:#000000 ; 
-    padding: 12px 15px 12px 15px;   
-    width:auto;
-    display: flex;
-    text-decoration:none;
-    
-    font-family: Arial, Helvetica, sans-serif;
-    letter-spacing:0.5pt
-}
-
-#navi a:hover {
-color:#fff;
-background:#848484;
-}
-
-/*#### content ####*/
-
-#container{
-    display: flex;
-    justify-content: space-between;
-}
-
-#food{
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-    border:2px solid;
-    max-height: 254px;
-    max-width: 500px;
-}
-
-section{
-    padding-left: 12px;
-    margin-top: 20px;
-    margin-left:30px;
-    width: 73%;
-    border: 2px solid black;
-    background-color: #ffebd3;
-    color: black;
-}
-/* part aside*/
-aside{
-    width: 20%;
-    padding: 12px;
-    margin-right: 30px;
-}
-
-#aside1{
-    padding-bottom: 12px;
-    margin-top: 20px;
-    background-color : #ffffff;
-    border: 3px solid black;
-}
-#aside2{
-    padding-bottom: 12px;
-    margin-top: 10px;
-    background-color : #ffffff;
-    border: 3px solid black;    
-}
-
-#aside3{
-    margin-top: 10px;
-    background-color : #fff;
-    border: 3px solid black;
-}
-
-#asidetitle{
-    font-weight:bold;
-    text-decoration:underline overline;
-    color:#000000;
-    letter-spacing:1pt;
-    font-size:24px;
-    text-align:center;
-    font-family:arial, helvetica, sans-serif;
-    line-height:0;
-}
-
-#asidecontent{
-    padding-left: 12px;
-    list-style-type: none;
-}
-
-
-
-/*###############FOOTER#################"*/
-footer{
-margin-top: 30px;
-display: flex;
-justify-content: space-between;
-background-color: black;
-border-top: 1px solid white;
-height:98px;
-    
-    
-}
-
-/* footer resto*/
-#restofooter{
-    padding-top: 10px;
-    display: block;
-    background-color:black;
-    color: white;
-    display: flex;
-    justify-content: flex-start;
-}
-
-#navcontener {
-    margin:5px;
-    padding-right:20px;
-    border-left: 1px solid white;
-    height:55px; 
-}
-
-#footnav a:link, a:visited a:hover {
-    text-decoration:none;
-    color:white;
-    padding-left:10px;
-    font-family:arial, helvetica, sans-serif;
-
-
-}
-
-#inforesto{
-    margin:5px;
-    margin-left:50px;
-    padding-left:10px;
-    border-left: 1px solid white;
-    height:70px; 
-}
-
-/* footer des credits*/
-#creditfooter{
-display: flex;
-justify-content: flex-start;
-}
-
-#credit{
-    margin:5px;
-    padding-right:5px;
-    text-align: right;
-    background-color: black;
-    font-family:arial, helvetica, sans-serif;
-    color:white;
-}
-
-#creditlogo{
-    padding-top:5px;
-    margin-right:10px;
-}
-
-
-#test {
-    position: relative;
-        }
-
-#footer {
-    position: absolute;
-    bottom: 0;
-        }
+                </div>
+                
+                <div id="aside2">
+                    <p id=asidetitle>A PROPOS</p>
+                    <li id=asidecontent><strong>Adresse :</strong></li>
+                    <li id=asidecontent>11 avenue Helmstedt</li>
+                    <li id=asidecontent>35500 VITRE</li><br/>
+                    <li id=asidecontent><strong>Telephone :</strong></li>
+                    <li id=asidecontent>02 99 74 47 77</li><br/>                    
+                    <li id=asidecontent><strong>Prix :</strong></li>
+                    <li id=asidecontent>Entre 10 et 15€</li>
+                </div>
+                
+                <div id="aside3">
+                    <div class="fb-page" data-href="https://www.facebook.com/RestaurantChinois/?fref=ts" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/RestaurantChinois/?fref=ts"><a href="https://www.facebook.com/RestaurantChinois/?fref=ts">Restaurant Chinois</a></blockquote></div></div>
+                </div> 
+            </aside>
+        </div>
+	
+        <footer>
+            <div id="restofooter">
+                <div id="navcontener">
+                    <div id="footnav">   
+                        <a href="/index">Accueil</a><br/>
+                        <a href="/carte">La carte</a><br/>
+                        <a href="/restaurant">Le restaurant</a>
+                    </div>
+                </div>
+                <div id="navcontener">
+                    <div id="footnav">
+                        <a href="/feedback">Avis</a><br/>
+				        <a href="/contact">Contact</a><br/>
+				        <a href="/FAQ">FAQ</a>
+                    </div>
+                </div>    
+                <div id=inforesto>
+                    <strong>Le Royal de Vitré</strong><br/>
+                    11 avenue Helmstedt<br/>
+                    35500 VITRE<br/>
+                    02 99 74 47 77<br/><br/><br/>
+                </div>
+            </div>
+            
+            <div id="creditfooter">
+                <div id="credit">
+                    All right Reserved<br/><strong> "La PoYm" © </strong><br/><br/> Last update<br/><strong>06/02/2016</strong>
+                </div>
+                <div id=creditlogo>
+                    <a href="https://twitter.com/Yanatow"><img src="http://image.noelshack.com/fichiers/2016/05/1454784466-poym2.png"></a>
+                </div>
+            </div>
+        </footer>	
+        </div>
+    </body>
+</html>
