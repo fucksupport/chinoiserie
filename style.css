@@ -157,6 +157,7 @@ height:98px;
     color: white;
     display: flex;
     justify-content: flex-start;
+    bottom:0px;
 }
 
 #navcontener {
