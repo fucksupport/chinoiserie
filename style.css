@@ -24,7 +24,6 @@ body{
 	position:fixed;
 	top:0;
 	z-index:1000;
-  
     display: flex;
     justify-content:center;
     margin:0;
@@ -35,8 +34,7 @@ body{
     border-width:0px 0;
 }
 
-#navi
-{
+#navi{
     
     display: flex;
     justify-content:center;
@@ -48,16 +46,14 @@ body{
     border-width:1px 0;
 }
 
-#navi li 
-{
+#navi li {
 
     display:inline;
     padding:0;
     margin:0;
 }
 
-#navi a:link, a:visited 
-{
+#navi a:link, a:visited {
     color:#fffdff;
     background:#000000 ; 
     padding: 12px 15px 12px 15px;   
@@ -96,10 +92,10 @@ section{
     margin-left:30px;
     width: 73%;
     border: 2px solid black;
-    background-color: white;
+    background-color: #ffebd3;
     color: black;
 }
-
+/* part aside*/
 aside{
     width: 20%;
     padding: 12px;
@@ -109,13 +105,13 @@ aside{
 #aside1{
     padding-bottom: 12px;
     margin-top: 20px;
-    background-color : #ffc9a8;
+    background-color : #ffffff;
     border: 3px solid black;
 }
 #aside2{
     padding-bottom: 12px;
     margin-top: 10px;
-    background-color : #ffc9a8;
+    background-color : #ffffff;
     border: 3px solid black;    
 }
 
@@ -137,34 +133,72 @@ aside{
 }
 
 #asidecontent{
- padding-left: 12px;
-list-style-type: none;
+    padding-left: 12px;
+    list-style-type: none;
 }
 
 
 
 /*###############FOOTER#################"*/
-
 footer{
-    border-top: 1px solid white;
-    border-bottom: 20px solid black;    
-    margin-top: 30px;
+margin-top: 30px;
+display: flex;
+justify-content: space-between;
+background-color: black;
+border-top: 1px solid white;
+height:98px;
+}
+
+/* footer resto*/
+#restofooter{
     padding-top: 10px;
     display: block;
     background-color:black;
     color: white;
+    display: flex;
+    justify-content: flex-start;
 }
 
-#creditlogo{
-	text-align: right;
-    margin-right:30px;
-    padding-bottom:5px;
+#navcontener {
+    margin:5px;
+    padding-right:20px;
+    border-left: 1px solid white;
+    height:55px; 
+}
+
+#footnav a:link, a:visited a:hover {
+    text-decoration:none;
+    color:white;
+    padding-left:10px;
+    font-family:arial, helvetica, sans-serif;
+
+
+}
+
+#inforesto{
+    margin:5px;
+    margin-left:50px;
+    padding-left:10px;
+    border-left: 1px solid white;
+    height:70px; 
+}
+
+/* footer des credits*/
+#creditfooter{
+display: flex;
+justify-content: flex-start;
 }
 
 #credit{
-    
-   background-color: black;
-   float: right;
-   margin-right:15px;
+    margin:5px;
+    padding-right:5px;
+    text-align: right;
+    background-color: black;
+    font-family:arial, helvetica, sans-serif;
+    color:white;
+}
 
+#creditlogo{
+    padding-top:5px;
+    margin-right:10px;
 }
