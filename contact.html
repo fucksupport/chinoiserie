@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+        <script type="text/javascript" src="scroll.js"></script>
+		<link href="contact.css" rel="stylesheet" type="text/css"/>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>		
+        <link rel="icon" type="image/png" href="image/ico.png" />
+        <title>Le Royal de Vitré</title>
+	</head>
+	
+
+	<body>
+        <div id="fb-root"></div>
+        <script>
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.5";
+        fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+        </script>
+		
+        
+        <header>
+        
+			<div id="headlogo">
+                <img alt="2nd" src="http://image.noelshack.com/fichiers/2016/05/1454786109-title5.png">
+			</div>
+		</header>
+		
+        <div class="nav">	
+            <ul id="navi">
+                <li id="navi-home"><a href="index">Accueil</a></li>
+                <li id="navi-about"><a href="carte">Carte et menus</a></li>
+                <li id="navi-archive"><a href="restaurant">Le restaurant</a></li>
+                <li id="navi-lab"><a href="feedback">Avis</a></li>
+                <li id="navi-reviews"><a href="contact">Contactez-nous</a></li>
+            </ul>
+        </div>
+		
+		
+        <div id="container">
+            <section id="main">
+            <div id="text">
+                <h2><u><center>Contactez nous :</center></u></h2>
+                <p> Si vous desirez quelconque renseignements ou si vous souhaitez réserver n'hésitez pas à nous contacter par telephone au <strong>02 99 74 47 77</strong>.</p>
+                <p> Vous pouvez aussi envoyer un message via le formulaire ci-dessous.</p>
+            </div>
+                <div id="contact">
+                    <p align="center"><strong>Contact</strong></p>
+                    <table id="formulaire" border="0" align="center" cellpadding="0" cellspacing="0">
+                        <form action="envoi.php" method="post" enctype="application/x-www-form-urlencoded" name="formulaire">
+
+                            <tr>
+                                <div id="zone" align="left">Votre nom :</div>
+                                <div id="zonewrite" colspan="2"><input type="text" name="nom" size="50" maxlength="100"></div>
+                            </tr>
+                            <tr>
+                                <div id="zone">Votre mail :</div>
+                                <div id="zonewrite" colspan="2"><input type="text" name="mail" size="50" maxlength="100"></div>
+                            </tr>
+                            <tr>
+                                <div id="zone">Sujet : </div>
+                                <div id="zonewrite"><input  type="text" name="objet" size="50" maxlength="120"></div>
+                            </tr>
+                            <tr>
+                                <div id="zone">Message : </div>
+                                <div id="zonewrite" colspan="2"><textarea name="message" cols="52" rows="10"></textarea></div>
+                            </tr>
+                            <tr>
+                                    <center><input type="submit" name="Submit" value="Envoyer"></center>
+
+                            </tr>
+                        </form>
+                    </table>
+                </div>
+
+            </section>
+            
+            <aside id="info">
+                <div id="aside1">
+                    <p id=asidetitle>HORAIRES</p>
+                    <li id=asidecontent><strong>Le lundi :</strong></li>
+                    <li id=asidecontent>de 12:00 à 14:00</li><br/>
+                    <li id=asidecontent><strong>Du mardi au dimanche :</strong></li>
+                    <li id=asidecontent> de 11:00 à 14:30 et de 19:00 à 22:00</li>
+
+                </div>
+                
+                <div id="aside2">
+                    <p id=asidetitle>A PROPOS</p>
+                    <li id=asidecontent><strong>Adresse :</strong></li>
+                    <li id=asidecontent>11 avenue Helmstedt</li>
+                    <li id=asidecontent>35500 VITRE</li><br/>
+                    <li id=asidecontent><strong>Telephone :</strong></li>
+                    <li id=asidecontent>02 99 74 47 77</li><br/>                    
+
+                </div>
+                
+                <div id="aside3">
+                    <div class="fb-page" data-href="https://www.facebook.com/RestaurantChinois/?fref=ts" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/RestaurantChinois/?fref=ts"><a href="https://www.facebook.com/RestaurantChinois/?fref=ts">Restaurant Chinois</a></blockquote></div></div>
+                </div> 
+            </aside>
+        </div>
+	
+        <footer>
+             <div id="restofooter">
+                <div id="navcontener">
+                    <div id="footnav">   
+                        <a href="index">Accueil</a><br/>
+                        <a href="carte">La carte</a><br/>
+                        <a href="restaurant">Le restaurant</a>
+                    </div>
+                </div>
+                <div id="navcontener">
+                    <div id="footnav">
+                        <a href="feedback">Avis</a><br/>
+				        <a href="contact">Contact</a><br/>
+				        <a href="FAQ">FAQ</a>
+                    </div>
+                </div>    
+                <div id=inforesto>
+                    <strong>Le Royal de Vitré</strong><br/>
+                    11 avenue Helmstedt<br/>
+                    35500 VITRE<br/>
+                    02 99 74 47 77
+                </div>
+            </div>
+            
+            <div id="creditfooter">
+                <div id="credit">
+                    All right Reserved<br/><strong> "La PoYm" © </strong><br/><br/> Last update <strong>06/02/2016</strong>
+                </div>
+                <div id=creditlogo>
+                    <a href="https://twitter.com/Yanatow"><img src="http://image.noelshack.com/fichiers/2016/05/1454784466-poym2.png"></a>
+                </div>
+            </div>
+        </footer>	
+        
+    </body>
+</html>
