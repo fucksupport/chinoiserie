@@ -77,32 +77,14 @@ background:#848484;
     justify-content: space-between;
 }
 
-#contact{
-width: 380px;
-margin-left: auto;
-margin-right: auto;
- justify-content: center;
-padding-bottom: 30px;
 
-}
 
-#formulaire{
-    width=1000px;
-}
 #text{
     min-width:10px;
     margin-right:20px;
 
 }
-#zone{
-    margin-left: auto;
-	margin-right: auto;
-	text-align: left;
-}
-#zonewrite{
-    padding-bottom: 8px;
 
-}
 section{
     padding-left: 12px;
     margin-top: 20px;
