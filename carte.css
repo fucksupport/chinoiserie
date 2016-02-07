@@ -77,14 +77,8 @@ background:#848484;
     justify-content: space-between;
 }
 
-#food{
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-    border:2px solid;
-    max-height: 340px;
-    max-width: 980px;
-    margin-bottom: 30px;
+#menu{
+	margin-left: 20px;
 }
 #resto{
     min-width:10px;
